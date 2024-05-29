@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blacksky"
+    tools:context=".MainActivity">
+
+    <ProgressBar
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="18dp"
+        android:id="@+id/progressCircular"
+        android:visibility="gone"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/quotesTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/akaya_telivigala"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textColor="#FFFFFF"
+            android:text="Daily Random Quotes!"
+            android:textSize="34sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_above="@+id/randomQuoteButton"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:backgroundTint="#00FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_favorite_border_24"
+            android:id="@+id/likeQuotes"
+            android:layout_margin="8dp"/>
+
+        <ImageButton
+            android:backgroundTint="#00FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_ios_share_24"
+            android:id="@+id/shareQuotes"
+            android:layout_margin="8dp"/>
+
+        <ImageButton
+            android:backgroundTint="#00FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/outline_settings_24"
+            android:id="@+id/quotesSetting"
+            android:layout_margin="8dp"/>
+    </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/randomQuoteButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:layout_margin="16dp"
+            android:padding="8px"
+            android:text="Random Quote"/>
+
+</RelativeLayout>
