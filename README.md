@@ -2,7 +2,7 @@
 
 <div align='center'>
   <br>
-  <img src="https://github.com/altamsh04/Daily-Random-Quotes-App/assets/84860267/4abc6dd7-fa76-4cc3-876e-0d160e0ff5a1" alt="DailyRandomQuotesAppLogo" width="300">
+  <img src="https://github.com/altamsh04/Daily-Random-Quotes-App/assets/84860267/4abc6dd7-fa76-4cc3-876e-0d160e0ff5a1" alt="DailyRandomQuotesAppLogo" width="200">
   <br>
 </div>
 
@@ -22,7 +22,7 @@ The **Daily Random Quotes App** is an Android application designed to provide us
 
 <div align='center'>
   <br>
-  <img src="https://github.com/altamsh04/Daily-Random-Quotes-App/assets/84860267/d7f5a4dd-b834-4109-a3f0-db9495248780" alt="DailyRandomQuotesAppUI">
+  <img src="https://github.com/altamsh04/Daily-Random-Quotes-App/assets/84860267/d7f5a4dd-b834-4109-a3f0-db9495248780" alt="DailyRandomQuotesAppUI" width="300">
   <br>
 </div>
 
