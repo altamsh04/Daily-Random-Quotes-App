@@ -2,7 +2,7 @@
 
 <div align='center'>
   <br>
-  <img src="https://github.com/altamsh04/Daily-Random-Quotes-App/assets/84860267/4abc6dd7-fa76-4cc3-876e-0d160e0ff5a1" alt="DailyRandomQuotesAppLogo">
+  <img src="https://github.com/altamsh04/Daily-Random-Quotes-App/assets/84860267/4abc6dd7-fa76-4cc3-876e-0d160e0ff5a1" alt="DailyRandomQuotesAppLogo" width="300">
   <br>
 </div>
 
